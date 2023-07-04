@@ -1,0 +1,35 @@
+baseurl = "https://KenShih077.github.io" 
+languageCode = "zh-tw"
+title = "Whatever you want" 
+buildDrafts = false 
+theme = "PaperMod"
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+
+
+
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/name.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
